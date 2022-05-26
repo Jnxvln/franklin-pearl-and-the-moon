@@ -3,6 +3,7 @@
   background-color: var(--nav-bg);
   display: flex;
   justify-content: space-evenly;
+  border-top: 2px solid var(--nav-bg-hover);
 }
 
 .nav-list {
