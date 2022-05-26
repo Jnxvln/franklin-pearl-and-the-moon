@@ -1,0 +1,25 @@
+.more-container {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.more {
+  font-weight: bold;
+  color: #E65A26;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2em;
+}
+
+.underline {
+  color: #E65A26;
+  font-weight: bold;
+  font-size: 2em;
+  /* border: 1px dotted blue; */
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -1.1em;
+}

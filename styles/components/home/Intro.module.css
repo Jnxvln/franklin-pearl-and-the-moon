@@ -1,0 +1,198 @@
+.intro-text {
+  color: #5F5F5F;
+  font-family: "Averia Sans Libre";
+  font-size: 2em;
+  max-width: 34em;
+  margin: 4em autåo;
+  /* border: 1px solid blue; */
+}
+
+.intro-avatars {
+  padding: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+
+.intro-funny {
+  font-weight: lighter;
+  font-style: italic;
+  color: rgb(202, 201, 201);
+  margin-top: 0.5em !important;
+  text-align: center;
+}
+
+.intro-text p {
+  margin: 0;
+  padding: 0;
+}
+
+/* TOP TWO FEATURED SONGS */
+.intro-featSongs {
+  /* border: 1px solid orange; */
+  display: flex;
+  justify-content: center;
+}
+
+.featSong {
+  color: #D69742;
+  font-family: 'Lucida Grande', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.play-button:hover {
+  cursor: pointer !important;
+}
+
+.avatar-container {
+  margin-right: 1.4em;
+}
+
+.avatar-image {
+  margin-right: 3px !important;
+  border: 1px solid orange !important;
+}
+
+/* MEDIA QUERIES ===================================== */
+
+@media screen and (min-width: 0px) {
+  .intro-text {
+    font-size: 1rem;
+    /* border: 1px solid blue; */
+    max-width: 94%;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .intro-funny {
+    color: #e2e2e2;
+  }
+
+  .intro-avatars {
+    width: 90%;
+  }
+
+  .avatar-container {
+    /* border: 1px solid orange; */
+    padding: 0.04em;
+    margin: 0.5em;
+  }
+
+  .featSong {
+    font-size: 0.9rem;
+    margin-right: 1em;
+  }
+
+  .intro-featSongs * {
+    font-size: 0.8rem !important;
+  }
+}
+
+/* MEDIA QUERIES =========================== */
+
+@media screen and (min-width: 320px) {
+  .intro-text {
+    font-size: 1.1rem;
+    /* border: 1px solid blue; */
+    max-width: 23em;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    text-align: center;
+    padding: 1em;
+  }
+  .intro-featSongs {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 0 auto;
+  }
+  .intro-featSongs * {
+    font-size: 0.9rem !important;
+  }
+  .featSong {
+    /* color: red; */
+    font-size: 0.8rem !important;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .intro-text {
+    font-size: 1.1rem;
+    /* border: 1px solid blue; */
+    max-width: 23em;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    text-align: center;
+    padding: 1em;
+  }
+  .intro-featSongs {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 0 auto;
+  }
+  .intro-featSongs * {
+    font-size: 0.9rem !important;
+  }
+  .featSong {
+    /* color: red; */
+    font-size: 0.8rem !important;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .intro-featSongs {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 0 auto;
+  }
+  .intro-featSongs * {
+    font-size: 1.2rem !important;
+  }
+  .featSong {
+    /* color: red; */
+    font-size: 0.9rem !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro-text {
+    font-size: 1.2rem;
+    /* border: 1px solid blue; */
+    max-width: 30em;
+    margin-top: 1.5em;
+    padding: 1em;
+  }
+  .intro-featSongs * {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro-text {
+    font-size: 1.5rem;
+    max-width: 90%;
+    margin: 2em auto;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .intro-text {
+    font-size: 1.6rem;
+    max-width: 70%;
+    margin: 2em auto;
+    margin-bottom: 0.5em;
+  }
+
+  .intro-featSongs * {
+    font-size: 1rem !important;
+  }
+}
