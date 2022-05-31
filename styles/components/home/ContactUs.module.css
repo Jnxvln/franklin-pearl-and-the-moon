@@ -1,0 +1,26 @@
+.section-contact {
+  background-color: #1B3441;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-socials {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8em;
+}
+
+.contact-title {
+  color: #EBE8DC;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.social:hover {
+  cursor: pointer !important;
+  fill: #2CEDC8 !important;
+}

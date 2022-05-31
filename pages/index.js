@@ -2,6 +2,9 @@ import Image from 'next/image'
 import NavBar from '../components/nav/navbar'
 import Intro from '../components/home/intro'
 import NextUp from '../components/home/nextup'
+import Merch from '../components/home/merch'
+import ContactUs from '../components/home/contact'
+import Footer from '../components/home/footer'
 import logoImage from '../public/home/fpatm_header_logo.png'
 import styles from '../styles/Home.module.css'
 
@@ -32,6 +35,9 @@ export default function Home() {
       <NavBar />
       <Intro />
       <NextUp data={data} />
+      <Merch />
+      <ContactUs />
+      <Footer />
     </div>
   )
 }
