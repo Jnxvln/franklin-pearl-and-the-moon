@@ -16,7 +16,7 @@ const ContactUs = () => {
     <section className={styles['section-contact']}>
       <div className={styles['contact-title-container']}>
         <div className={styles['contact-socials']}>
-          <a href="https://www.facebook.com/FranklinPearlAndTheMoon" target="_blank">
+          <a href="https://www.facebook.com/FranklinPearlAndTheMoon" target="_blank" rel="noreferrer">
             <FaFacebook size="3em" color="#41ACA4" className={styles['social']} />
           </a>
           <FaInstagram size="3em" color="#2E525F" />
