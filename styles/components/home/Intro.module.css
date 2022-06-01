@@ -20,9 +20,10 @@
 .intro-funny {
   font-weight: lighter;
   font-style: italic;
-  color: rgb(202, 201, 201);
+  color: #cac9c9;
   margin-top: 0.5em !important;
   text-align: center;
+  font-family: "Averia Sans Libre", sans-serif;
 }
 
 .intro-text p {
@@ -45,6 +46,7 @@
   display: flex;
   align-items: center;
   margin-right: 1em;
+  cursor: pointer;
 }
 
 .play-button:hover {

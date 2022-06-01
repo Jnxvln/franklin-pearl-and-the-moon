@@ -2,6 +2,11 @@
   background-color: var(--nav-bg);
   display: flex;
   justify-content: space-evenly;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #98806d;
 }
 
 .nav-list {
@@ -28,9 +33,23 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 0px) and (max-width: 520px) {
-  .nav-list-item {
-    font-size: 1em;
-    padding: 0.5em;
+@media screen and (min-width: 100px) {
+  .nav-list a {
+    font-size: 1em !important;
+    padding: 0.5em 0.4em !important;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .nav-list a {
+    font-size: 1em !important;
+    padding: 0.5em 1em !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-list a {
+    font-size: 1.3em !important;
+    padding: 0.5em 1em !important;
   }
 }

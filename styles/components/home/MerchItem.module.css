@@ -12,8 +12,8 @@
 }
 
 .merch-item-container:hover {
-  -webkit-box-shadow: 5px 5px 8px 1px rgba(43, 35, 22, 0.47); 
-  box-shadow: 5px 5px 8px 1px rgba(43, 35, 22, 0.47);
+  -webkit-box-shadow: 5px 5px 8px 1px rgba(43, 35, 22, 0.60); 
+  box-shadow: 5px 5px 8px 1px rgba(43, 35, 22, 0.60);
   border-bottom-left-radius: 10pt;
   border-bottom-right-radius: 10pt;
   transition: all 0.3s;

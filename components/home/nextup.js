@@ -1,10 +1,7 @@
 import styles from '../../styles/components/home/Nextup.module.css'
 import Image from 'next/image'
 import More from '../../components/ui/More'
-// import NextupSrc from '../../public/home/temp-upcoming.png'
 import NextupSrc from '../../public/home/eventpic_june18-2022-arrow.jpg'
-// import QRCode from '../../public/home/temp-qrcode.svg'
-// import QRCode from '../../public/home/event_nextup_qrcode.png'
 import QRCode from '../../public/home/event-qrcode-arrowbar.png'
 
 import React from 'react';
@@ -49,7 +46,7 @@ const NextUp = ({ data }) => {
         {/* COLUMN - IMAGE CONTAINER */}
         <div className={styles['nextup-image-container']}>
           <div className={styles['event-image-wrapper']}>
-            <Image src={NextupSrc} width={150} height={150} layout="responsive" />
+            <Image className={styles['event-image']} src={NextupSrc} width={150} height={150} layout="responsive" />
           </div>
           <div>
             <h4 className={styles.whosplaying}>WHO'S PLAYING?</h4>

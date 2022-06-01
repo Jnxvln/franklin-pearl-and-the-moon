@@ -4,15 +4,14 @@ import Intro from '../components/home/intro'
 import NextUp from '../components/home/nextup'
 import Merch from '../components/home/merch'
 import ContactUs from '../components/home/contact'
-import Footer from '../components/home/footer'
 import logoImage from '../public/home/fpatm_header_logo.png'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   const data = {
     location: 'Arrow Bar',
-    eventDate: new Date(2022, 10, 5),
-    begins: '9pm',
+    eventDate: new Date(2022, 5, 18),
+    begins: '8pm',
     hasCoverCharge: true,
     coverCharge: '5',
     performers: [
@@ -32,12 +31,10 @@ export default function Home() {
           />
         </div>
       </header>
-      <NavBar />
       <Intro />
       <NextUp data={data} />
       <Merch />
       <ContactUs />
-      <Footer />
     </div>
   )
 }

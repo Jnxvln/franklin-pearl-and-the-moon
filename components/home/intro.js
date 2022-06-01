@@ -16,8 +16,8 @@ const intro = () => {
     <section className={styles['section-intro']}>
       {/* Text */}
       <article className={styles['intro-text']}>
-        <p className={styles['intro-leadText']}>We’re just a group of friends who love to play music. With modest Americana influence and jazzy inspirations, we’re known as Franklin Pearl & The Moon</p>
-        <p className={styles['intro-funny']}>Who is Franklin?</p>
+        <p className={styles['intro-leadText']}>We&apos;re just a group of friends who love to play music. With modest Americana influence and jazzy inspirations, we&apos;re known as Franklin Pearl & The Moon</p>
+        {/* <p className={styles['intro-funny']}>Who is Franklin?</p> */}
       </article>
 
       {/* AVATARS */}

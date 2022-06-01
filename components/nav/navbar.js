@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from '../../styles/components/nav/Nav.module.css'
 import Link from 'next/link'
 
