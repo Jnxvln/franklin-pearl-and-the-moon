@@ -9,15 +9,17 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   const data = {
+    hasBkg: true,
     location: 'Arrow Bar',
     eventDate: new Date(2022, 5, 18),
     begins: '8pm',
     hasCoverCharge: true,
-    coverCharge: '5',
+    // coverCharge: '5',
     performers: [
-      'Cough Cool',
-      'Franklin Pearl & The Moon',
-      'Jim Reed'
+      "Devil's Doorbell",
+      "Franklin Pearl & The Moon",
+      "The Government Bandit",
+      "Jim Reed"
     ]
   }
   return (

@@ -6,6 +6,10 @@
   flex-direction: column;
 }
 
+.more-linkContainer {
+  text-decoration: none;
+}
+
 .more {
   font-weight: bold;
   color: #E65A26;

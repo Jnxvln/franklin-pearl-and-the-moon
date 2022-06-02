@@ -1,0 +1,80 @@
+.shows-container {
+  background-color: #3B352B;
+  background-image: url('../../../public/home/pedalboard.png');
+  background-size: cover;
+}
+
+.upcoming-borderTop {
+  background-color: #b58663;
+
+  height: 4px;
+}
+.upcoming-borderBottom {
+  background-color: #85452a;
+  height: 8px;
+}
+
+.shows-title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 6rem;
+  text-align: center;
+  color: #E5AF43;
+  padding-top: 0.5em;
+}
+
+.shows-nextup-container p {
+  color: white;
+}
+
+/* UPCOMING COMPONENT STYLES */
+
+.upcoming-container {
+  background-color: #415F5B;
+  height: 100%;
+}
+
+.upcoming-container .upcoming-title {
+  margin-bottom: 0;
+  color: #E5AF43;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 6rem;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.upcoming-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+
+.upcoming-list-item {
+  /* border: 1px solid white; */
+  color: white;
+  display: flex;
+  margin-bottom: 5em;
+}
+
+.upcoming-list-details-container {
+  margin-left: 1em;
+}
+
+.upcoming-detail-date {
+  color: #EDE1D6;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.upcoming-detail-misc {
+  color: #EDC6A0;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.upcoming-detail-title {
+  color:#E5AF43;
+  font-family: "Futura";
+  font-weight: bold;
+  font-size: 2rem;
+}

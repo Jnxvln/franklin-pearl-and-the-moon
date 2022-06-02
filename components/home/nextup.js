@@ -14,7 +14,7 @@ const NextUp = ({ data }) => {
   }
 
   return (
-    <div className={styles['nextup-wrapper']}>
+    <div className={`${data.hasBkg ? styles['nextup-wrapper'] : styles['nextup-wrapper-noBkg']}`}>
       <section className={styles['nextup-container']}>
 
         {/* COLUMN - DETAILS */}
@@ -32,7 +32,10 @@ const NextUp = ({ data }) => {
               <div className={styles['event-date']}>{ formatDate(data.eventDate) }</div>
               <div className={styles['event-extra']}>              
                 <div className={styles['event-begins']}>Begins @ {data.begins}</div>
-                { data.hasCoverCharge === true ? <div className={styles['event-cover']}>${data.coverCharge} cover</div> : null }
+
+                { data.coverCharge !== '' && (
+                  <div className={styles['event-cover']}>${data.coverCharge} cover</div>
+                )}
               </div>
             </div>
             
@@ -51,9 +54,7 @@ const NextUp = ({ data }) => {
           <div>
             <h4 className={styles.whosplaying}>WHO'S PLAYING?</h4>
             <ul className={styles['band-list']}>
-              <li>Cough Cool</li>
-              <li>Franklin Pearl & The Moon</li>
-              <li>Jim Reed</li>
+              { data.performers.map((p, index) => <li key={index}>{p}</li>) }
             </ul>
           </div>
         </div>
@@ -61,7 +62,7 @@ const NextUp = ({ data }) => {
       
       {/* MORE EVENTS */}
       <div>
-        <More verb="View" color="white" />
+        <More verb="View" color="white" href="/shows" />
       </div>
     </div>
   )

@@ -4,6 +4,12 @@
   background-size: cover;
 }
 
+.nextup-wrapper-noBkg {
+  /* background-image: url('../../../public/home/temp-barbkg.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .nextup-container {
   /* border: 2px solid red; */
   height: 100%;
