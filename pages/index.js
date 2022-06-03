@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import NavBar from '../components/nav/navbar'
+import NavBar from '../components/ui/navbar'
 import Intro from '../components/home/intro'
 import NextUp from '../components/home/nextup'
 import Merch from '../components/home/merch'
