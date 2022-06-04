@@ -214,6 +214,18 @@
     list-style: none;
     font-size: 1.3rem;
   }
+
+  .header-title {
+    font-size: 3rem;
+  }
+
+  .event-location {
+    font-size: 2.3rem;
+  }
+
+  .event-date, .event-extra, .event-cover {
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (min-width: 375px) {

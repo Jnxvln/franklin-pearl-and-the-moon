@@ -12,7 +12,7 @@ const Footer = () => {
         </Link>
       </div>
       <div className={styles['footer-legal']}>
-        <Link href="/terms-of-use">Terms of Use</Link> | <Link href="/privacy-policy">Privacy Policy</Link>
+        <Link href="/privacy-policy">Privacy Policy</Link>
       </div>
       <div className={styles['footer-copyright']}>
         &copy; Copyright 2022 Franklin Pearl & The Moon | All Rights Reserved

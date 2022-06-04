@@ -6,7 +6,6 @@
 
 .upcoming-borderTop {
   background-color: #b58663;
-
   height: 4px;
 }
 .upcoming-borderBottom {
@@ -15,11 +14,8 @@
 }
 
 .shows-title {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 6rem;
-  text-align: center;
   color: #E5AF43;
-  padding-top: 0.5em;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .shows-nextup-container p {
@@ -46,14 +42,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 1px solid white; */
-}
-
-.upcoming-list-item {
-  /* border: 1px solid white; */
-  color: white;
-  display: flex;
-  margin-bottom: 5em;
 }
 
 .upcoming-list-details-container {
@@ -77,4 +65,77 @@
   font-family: "Futura";
   font-weight: bold;
   font-size: 2rem;
+}
+
+/* MEDIA QUERIES ======================== */
+
+@media screen and (min-width: 200px) {
+  .upcoming-title {
+    font-size: 3em !important;
+  }
+  .shows-title {
+    color: #E5AF43;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 0.5em;
+  }
+  .upcoming-list-container {
+    padding: 0 1em;
+  }
+  .upcoming-list-item {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+  }
+  .upcoming-list-image-container * {
+    width: 100% !important;
+  }
+  .upcoming-detail-title {
+    font-size: 1.5rem;
+  }
+  .upcoming-detail-date, .upcoming-detail-misc {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .upcoming-title {
+    font-size: 3.5em !important;
+    margin-bottom: 0;
+  }
+  .upcoming-list-item {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .upcoming-detail-title {
+    font-size: 1.4rem;
+  }
+  .upcoming-detail-date, .upcoming-detail-misc {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .upcoming-title {
+    font-size: 4.2em !important;
+    margin-bottom: 0;
+  }
+  .upcoming-list-item {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    margin-bottom: 3em;
+  }
+  .upcoming-detail-title {
+    font-size: 2rem;
+  }
+  .upcoming-detail-date, .upcoming-detail-misc {
+    font-size: 1.5rem;
+  }
 }
