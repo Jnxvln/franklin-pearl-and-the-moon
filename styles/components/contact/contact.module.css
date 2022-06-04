@@ -1,0 +1,145 @@
+.contact-background {
+  height: 100%;
+  background-color: #3B352B;
+}
+
+.contact-title {
+  color: #E5AF43;
+  font-family: "Bebas Neue", cursive;
+  font-size: 5rem;
+  text-align: center;
+  padding: 1em 0;
+  margin-bottom: 0;
+}
+
+.contact-form-container {
+  background-color: #415F5B;
+  height: 100%;
+}
+
+.contact-form-instructions {
+  color: #E5E0D8;
+  font-size: 1.5rem;
+}
+
+.contact-label {
+  color: #E5E0D8;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* .contact-formControls-container {
+  margin: 0em 20em;
+} */
+
+.form-group {
+  margin-bottom: 1.5em;
+}
+
+.contact-socials {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-title {
+  color: #EBE8DC;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.social:hover {
+  cursor: pointer !important;
+  fill: #2CEDC8 !important;
+}
+
+.contact-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-sendButton {
+  background-color: #E5AF43;
+  border: 0;
+  padding: 0.5em 3em;
+  font-weight: bold;
+}
+
+.contact-sendButton:hover {
+  background-color: #bf891d;
+}
+
+@media screen and (min-width: 200px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+  .contact-form-container {
+    padding-top: 2em;
+  }
+  .contact-form-instructions {
+    font-size: 1.3rem;
+    padding: 0.5em 2em;
+    text-align: center;
+    /* border: 2px solid white; */
+  }
+  .contact-socials {
+    /* border: 2px solid pink; */
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .contact-formControls-container {
+    padding: 1em;
+  }
+  .contact-label {
+    font-size: 1.2rem;
+  }
+  .contact-sendButton {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .contact-socials {
+    /* border: 2px solid pink; */
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .contact-formControls-container {
+    padding: 2em;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .contact-form-instructions {
+    font-size: 1.5rem;
+    padding: 0.5em 2em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-title {
+    font-size: 3rem;
+  }
+  .contact-form-instructions {
+    font-size: 1.7rem;
+    padding: 0.5em 2em;
+    text-align: center;
+    /* border: 2px solid white; */
+  }
+  .contact-socials {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .contact-formControls-container {
+    padding: 2em 8em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-title {
+    font-size: 4rem;
+  }
+  .contact-formControls-container {
+    padding: 2em 20em;
+  }
+}

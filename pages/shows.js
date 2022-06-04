@@ -22,7 +22,6 @@ const Shows = () => {
   return (
     <div>
       <section className={styles['shows-container']}>
-        {/* <h1 className={styles['shows-title']}>Shows</h1> */}
         <div className={styles['shows-nextup-container']}>
           <Nextup data={data} />
         </div>
