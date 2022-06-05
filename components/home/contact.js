@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFacebook } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
+import Link from 'next/link'
 import styles from '../../styles/components/home/ContactUs.module.css'
 
 const ContactUs = () => {
@@ -16,7 +17,9 @@ const ContactUs = () => {
           <FaInstagram size="3em" color="#2E525F" />
           <FaYoutube size="3em" color="#2E525F" />
         </div>
-        <h3 className={styles['contact-title']}>Contact Us</h3>
+        <h3 className={styles['contact-title']}>
+          <Link href="/contact">Contact Us</Link>
+        </h3>
       </div>
     </section>
   )

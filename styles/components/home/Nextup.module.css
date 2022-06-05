@@ -15,7 +15,7 @@
   height: 100%;
   color: white;
   display: flex;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 1em;
   padding-top: 2em;
 }
@@ -47,7 +47,7 @@
 .event-root {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 1em;
   /* border: 1px dotted white; */
 }
@@ -312,6 +312,8 @@
     /* border: 1px dotted red; */
   }
 
+  /* ----- */
+
   .header-title {
     font-family: 'Work Sans', sans-serif;
     font-size: 4.5rem;
@@ -329,25 +331,29 @@
   .event-date {
     color: #E5AF43;
     font-weight: normal;
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 26pt;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
   }
   
   .event-begins {
     color: #FF7E65;
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 26pt;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
   }
-  
-  .event-extra {
-    display: flex;
-  }
-  
+
   .event-cover {
     color: #F0F0F0;
     margin-left: 0.5em;
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 26pt;
+    font-weight: normal;
+  }
+
+  /* ----- */
+  
+  .event-extra {
+    display: flex;
   }
 
   .qrcode-container {
@@ -401,24 +407,24 @@
   .event-date {
     color: #E5AF43;
     font-weight: normal;
-    font-size: 2.6em;
+    font-size: 2em;
     font-weight: bold;
   }
-  
-  .event-begins {
-    color: #FF7E65;
-    font-size: 2.6em;
-    font-weight: bold;
-  }
-  
+
   .event-extra {
     display: flex;
   }
   
+  .event-begins {
+    color: #FF7E65;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
   .event-cover {
     color: #F0F0F0;
     margin-left: 0.5em;
-    font-size: 2.6em;
+    font-size: 2em;
     font-weight: bold;
   }
 

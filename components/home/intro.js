@@ -51,7 +51,7 @@ const intro = () => {
       <br/>
       <br/>
 
-      <More verb="Listen to" />
+      <More verb="Listen to" href="https://www.redbubble.com/people/franklinpearl/shop" />
     </section>
   )
 }

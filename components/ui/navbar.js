@@ -9,7 +9,7 @@ const navbar = () => {
           <Link href="/">Home</Link>
           <Link href="/music">Music</Link>
           <Link href="/shows">Shows</Link>
-          <Link href="/merch">Merch</Link>
+          <a href="https://www.redbubble.com/people/franklinpearl/shop" target="_blank" rel="noreferrer">Merch</a>
           <Link href="/contact">Contact</Link>
       </div>
     </nav>

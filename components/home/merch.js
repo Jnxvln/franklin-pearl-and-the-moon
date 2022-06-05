@@ -29,7 +29,7 @@ const Merch = () => {
       </div>
 
       <div>
-        <More verb="View" color="white" />
+        <More verb="View" color="white" href="https://www.redbubble.com/people/franklinpearl/shop" />
       </div>
 
       <div className={styles['merch-borderBottom-thick']}></div>

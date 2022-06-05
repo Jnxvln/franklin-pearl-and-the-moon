@@ -9,7 +9,7 @@ const Upcoming = () => {
     <section className={styles['upcoming-container']}>
       <div className={styles['upcoming-borderTop']}></div>
       <div className={styles['upcoming-borderBottom']}></div>
-      <h1 className={styles['upcoming-title']}>Coming Up</h1>
+      <h1 className={styles['upcoming-title']}>Upcoming Events</h1>
 
       <div className={styles['upcoming-list-container']}>
         <br/><br/><br/>

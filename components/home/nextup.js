@@ -33,7 +33,7 @@ const NextUp = ({ data }) => {
               <div className={styles['event-extra']}>              
                 <div className={styles['event-begins']}>Begins @ {data.begins}</div>
 
-                { data.coverCharge !== '' && (
+                { data.coverCharge > 0 && (
                   <div className={styles['event-cover']}>${data.coverCharge} cover</div>
                 )}
               </div>
@@ -54,16 +54,19 @@ const NextUp = ({ data }) => {
           <div>
             <h4 className={styles.whosplaying}>WHO'S PLAYING?</h4>
             <ul className={styles['band-list']}>
-              { data.performers.map((p, index) => <li key={index}>{p}</li>) }
+              { data.performers && data.performers.map((p, index) => <li key={index}>{p}</li>) }
             </ul>
           </div>
         </div>
       </section>
       
       {/* MORE EVENTS */}
-      <div>
+      { data.showMore ? (<div>
         <More verb="View" color="white" href="/shows" />
-      </div>
+      </div>) : null }
+
+      <br/>
+      
     </div>
   )
 }

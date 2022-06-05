@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+.contact-title a {
+  text-decoration: none;
+  color: #c1c1c1;
+}
+
 .contact-socials {
   /* border: 1px solid white; */
   display: flex;

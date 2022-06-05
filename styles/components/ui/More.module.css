@@ -1,5 +1,5 @@
 .more-container {
-  /* border: 2px solid red; */
+  /* border: 2px solid white !important; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +15,10 @@
   color: #E65A26;
   font-family: "Bebas Neue", sans-serif;
   font-size: 2em;
+}
+
+.more:hover {
+  cursor: pointer;
 }
 
 .underline {

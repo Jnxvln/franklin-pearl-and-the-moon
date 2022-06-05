@@ -13,8 +13,8 @@ export default function Home() {
     location: 'Arrow Bar',
     eventDate: new Date(2022, 5, 18),
     begins: '8pm',
-    hasCoverCharge: true,
-    // coverCharge: '5',
+    coverCharge: 5,
+    showMore: true,
     performers: [
       "Devil's Doorbell",
       "Franklin Pearl & The Moon",
