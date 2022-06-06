@@ -11,7 +11,6 @@
 }
 
 .nextup-container {
-  /* border: 2px solid red; */
   height: 100%;
   color: white;
   display: flex;
@@ -64,21 +63,17 @@
 
 .event-location {
   color: #6AE298;
-  font-weight: bold;
-  font-size: 1.8rem;
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 .event-date {
   color: #E5AF43;
-  font-weight: normal;
-  font-size: 1.2em;
   font-weight: bold;
 }
 
 .event-begins {
   color: #FF7E65;
-  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -102,28 +97,19 @@
 
 @media screen and (min-width: 0px) {
   .nextup-container {
-    /* width: 60%; */
     flex-direction: column;
   }
 
   .event-location {
-    color: #6AE298;
-    font-weight: bold;
-    font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
   }
   
   .event-date {
-    color: #E5AF43;
-    font-weight: normal;
     font-size: 1.1rem;
-    font-weight: bold;
   }
   
   .event-begins {
-    color: #FF7E65;
     font-size: 1.1rem;
-    font-weight: bold;
   }
   
   .event-extra {
@@ -131,10 +117,8 @@
   }
   
   .event-cover {
-    color: #F0F0F0;
     margin-left: 0.5em;
-    font-size: 1.1em;
-    font-weight: bold;
+    font-size: 1.1rem;
   }
 
   .whosplaying {
@@ -149,10 +133,6 @@
 
   .header-title {
     font-size: 2.2rem;
-  }
-
-  .event-location {
-    font-size: 1.5rem;
   }
 
   .event-date {
@@ -175,23 +155,15 @@
   }
 
   .event-location {
-    color: #6AE298;
-    font-weight: bold;
-    font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
+    font-size: 26pt !important;
   }
   
   .event-date {
-    color: #E5AF43;
-    font-weight: normal;
-    font-size: 1.1rem;
-    font-weight: bold;
+    font-size: 16pt !important;
   }
   
   .event-begins {
-    color: #FF7E65;
-    font-size: 1.1rem;
-    font-weight: bold;
+    font-size: 16pt !important;
   }
   
   .event-extra {
@@ -199,10 +171,8 @@
   }
   
   .event-cover {
-    color: #F0F0F0;
     margin-left: 0.5em;
-    font-size: 1.1em;
-    font-weight: bold;
+    font-size: 16pt !important;
   }
 
   .whosplaying {
@@ -235,23 +205,15 @@
   }
 
   .event-location {
-    color: #6AE298;
-    font-weight: bold;
-    font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
+    font-size: 26pt !important;
   }
   
   .event-date {
-    color: #E5AF43;
-    font-weight: normal;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 18pt !important;
   }
   
   .event-begins {
-    color: #FF7E65;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 18pt !important;
   }
   
   .event-extra {
@@ -259,10 +221,8 @@
   }
   
   .event-cover {
-    color: #F0F0F0;
     margin-left: 0.5em;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 18pt !important;
   }
 
   .whosplaying {
@@ -287,14 +247,17 @@
   .nextup-container {
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    /* padding: 1em; */
     padding-top: 4em;
   }
-
   .event-root {
     display: flex;
     flex-direction: column;
-    /* border: 1px dotted red; */
+  }
+  .event-location {
+    font-size: 28pt !important;
+  }
+  .event-date, .event-begins {
+    font-size: 20pt !important;
   }
 }
 
@@ -309,7 +272,6 @@
   .event-root {
     display: flex;
     flex-direction: column;
-    /* border: 1px dotted red; */
   }
 
   /* ----- */
@@ -322,32 +284,20 @@
   }
 
   .event-location {
-    color: #6AE298;
-    font-weight: bold;
-    font-size: 3rem;
-    font-family: 'Raleway', sans-serif;
+    font-size: 30pt !important;
   }
   
   .event-date {
-    color: #E5AF43;
-    font-weight: normal;
-    font-size: 26pt;
-    font-weight: normal;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 26pt !important;
   }
   
   .event-begins {
-    color: #FF7E65;
-    font-size: 26pt;
-    font-weight: normal;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 26pt !important;
   }
 
   .event-cover {
-    color: #F0F0F0;
     margin-left: 0.5em;
-    font-size: 26pt;
-    font-weight: normal;
+    font-size: 26pt !important;
   }
 
   /* ----- */
